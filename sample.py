@@ -100,7 +100,7 @@ while True:
                                 client.sendText(receiver, "Members :"+str(jml))
                         
             # Don't remove this line, if you wan't get error soon!
-            poll.setRevision(op.revision)
+            
             
     except Exception as e:
         client.log("[SINGLE_TRACE] ERROR : " + str(e))
